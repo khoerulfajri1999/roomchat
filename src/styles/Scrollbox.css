@@ -1,0 +1,14 @@
+.scroll {
+  width: 350px;
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .scroll {
+    width: 990px;
+    height: 500px;
+  }
+}
